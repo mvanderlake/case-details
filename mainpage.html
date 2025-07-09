@@ -1,0 +1,2121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Documents: Arianne Brauer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            text-align: left;
+        }
+        .tab-link.active {
+            border-color: #3b82f6;
+            background-color: #ffffff;
+            color: #1e3a8a;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .timeline-content, .tab-content {
+            animation: fadeIn 0.4s ease-in-out;
+        }
+        .chat-bubble { max-width: 75%; padding: 10px 16px; border-radius: 18px; margin-bottom: 8px; line-height: 1.4; word-wrap: break-word; }
+        .chat-bubble-sent { background-color: #3b82f6; color: white; align-self: flex-end; border-bottom-right-radius: 4px; }
+        .chat-bubble-received { background-color: #e5e7eb; color: #1f2937; align-self: flex-start; border-bottom-left-radius: 4px; }
+        .chat-meta { font-size: 0.75rem; color: #6b7280; }
+        .chat-meta-sent { color: #dbeafe; }
+        .date-separator { align-self: center; background-color: #d1d5db; color: #4b5563; font-size: 0.75rem; font-weight: 500; padding: 4px 12px; border-radius: 9999px; margin: 16px 0 8px 0; }
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+        .details-arrow { transition: transform 0.2s; }
+        details[open] > summary .details-arrow { transform: rotate(90deg); }
+        .email-body { white-space: pre-wrap; font-family: 'Courier New', Courier, monospace; font-size: 0.875rem; line-height: 1.5; background-color: #f9fafb; padding: 1rem; border-radius: 0.5rem; border: 1px solid #e5e7eb; text-align: left; }
+        .document-category > summary { background-color: #f3f4f6; padding: 1rem; font-size: 1.25rem; font-weight: 700; color: #1f2937; border-top: 1px solid #e5e7eb; }
+        .document-item > summary { background-color: #ffffff; padding: 0.75rem 1rem; font-size: 1rem; font-weight: 600; color: #374151; border-top: 1px solid #e5e7eb; }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 sm:p-6 md:p-8">
+
+<div class="container max-w-5xl mx-auto bg-white rounded-xl shadow-2xl overflow-hidden">
+    <!-- Header Section -->
+    <header class="bg-slate-800 text-white p-6 sm:p-8 border-b-4 border-blue-500">
+        <h1 class="text-2xl md:text-3xl font-bold">Timeline & Documentation</h1>
+    </header>
+
+    <!-- Tab Navigation -->
+    <nav class="flex flex-wrap border-b border-gray-200 bg-gray-50">
+        <button class="tab-link flex-grow sm:flex-grow-0 p-4 font-medium text-gray-600 border-b-4 border-transparent hover:bg-gray-200 hover:text-blue-700 transition-colors duration-200" onclick="openTab(event, 'tab-timeline')">Timeline</button>
+        <button class="tab-link flex-grow sm:flex-grow-0 p-4 font-medium text-gray-600 border-b-4 border-transparent hover:bg-gray-200 hover:text-blue-700 transition-colors duration-200" onclick="openTab(event, 'tab-documents')">Documents</button>
+    </nav>
+
+    <!-- Main Content Area for Tabs -->
+    <main class="p-6 md:p-8">
+        <!-- Tab for Timeline -->
+        <div id="tab-timeline" class="tab-content hidden">
+            <div class="relative mb-6">
+                <select id="timeline-selector" class="appearance-none w-full bg-gray-50 border border-gray-300 text-slate-700 text-xl font-bold rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" onchange="switchTimeline(this.value)">
+                    <option value="pregnancy">Timeline: Pregnancy / HR</option>
+                    <option value="wages">Timeline: Wage Issues</option>
+                </select>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-700">
+                    <svg class="fill-current h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                </div>
+            </div>
+            <div id="timeline-pregnancy" class="timeline-content hidden border-l-2 border-blue-500 pl-6 space-y-8">
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">September 2024 – The Offer</h3>
+                    <p class="text-gray-600">Spoke to Roxi about transferring to a busier location for financial stability. Roxi countered by offering the Lead Server position at Yellowhawk, praising my work and promising a pay increase. I accepted the offer.</p>
+                
+
+<div class="space-y-4 border-l-4 border-gray-200 pl-4 mt-2">
+                            <div class="p-4 bg-sky-50 border border-sky-200 rounded-lg">
+                                <h4 class="font-bold text-md text-sky-800">My Hindsight Perspective:</h4>
+                                <p class="mt-2 text-sky-700">I believe Roxi offered me this promotion of convenience for her. She had recently been promoted herself and told me explicitly that I would be taking over some of her former duties. My assessment is that she needed someone to handle her less desirable tasks and dangled the promotion as an incentive, without any genuine intention of formalizing the position or the pay raise.</p>
+                            </div>
+                            <div class="p-4 bg-amber-50 border border-amber-200 rounded-lg">
+                                <h4 class="font-bold text-md text-amber-800">Additional Info:</h4>
+                                <p class="mt-2 text-amber-700">I have since spoken with a previous employee who confirmed he was offered the exact same "Lead Server" promotion by Roxi under nearly identical circumstances (Roxi needing to offload duties). The position never materialized for him either, and he eventually left the company due to that.</p>
+                            </div>
+                        </div>
+
+
+
+
+                
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">September 2024 – February 8, 2025 – Added Responsibilities, No Promotion</h3>
+                    <p class="text-gray-600">Took on numerous managerial duties (tours, PIN access, reports, opening/closing) while repeatedly inquiring about the formal promotion. Was consistently told it was "in the works," and in January, that Cooper had approved it and only pay needed to be determined.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">February 8, 2025 – The Discriminatory Conversation</h3>
+                    <p class="text-gray-600">After an unrelated discussion about a damaged crib I returned to her, I again asked Roxi about the position. She stated, “Cooper and I weren’t sure if you still wanted the position due to your pregnancy.” She then inquired about my due date, suggesting the timing would be an issue as she needed someone consistent. I was stunned into silence and left the conversation distressed.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">February 12-17, 2025 – Attempts to Clarify</h3>
+                    <p class="text-gray-600">Texted Roxi to reaffirm my interest in the position despite my pregnancy; she ignored a clarifying question. Escalated to Cooper directly on Feb 14, who claimed to have no knowledge of the promotion or my pregnancy. On Feb 17, Cooper stated the position was no longer needed and Roxi would speak with me.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">March 2, 2025 – The Position Vanishes</h3>
+                    <p class="text-gray-600">Roxi informed me the Lead Server role was no longer needed, offering a "trainer" role instead. She blamed "higher ups" for the delay and eventual cancellation.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">March 14 – May 5, 2025 – Formal Complaint & HR Inaction</h3>
+                    <p class="text-gray-600">Emailed Roxi, Cooper, and HR regarding the rescinded promotion and pregnancy comment, alongside other pay issues. Cooper deferred to HR; Roxi and HR remained silent. On May 5, new HR contact Wendi revealed the previous HR rep considered Cooper's reply sufficient and closed the matter without investigation.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">May 5 – May 23, 2025 – Investigation & HR Meeting</h3>
+                    <p class="text-gray-600">After I pushed for a proper investigation, a formal meeting was set. On May 23, I met with Roxi and two HR reps. They denied my request to record but assured me they would take notes. In the meeting, Roxi denied making the pregnancy comment. Instead, she claimed she only remembered congratulating me and offering a crib for the new baby. This story was impossible, as I had already bought and returned her crib months earlier, and she had texted her congratulations back in December. I pointed out these inconsistencies in her story, as well as in Cooper's, who went from denying any knowledge of the promotion to later blaming his forgetfulness. I urged them to check the tasting room's surveillance footage and offered to show them Cooper's contradictory texts. I also asked if it was possible to at least get a raise. </p>
+                
+            <br>
+
+
+                                <p class="text-gray-600">Roxy mentioned should would inquire about the surveillance (she never did) and a pay raise for me (not promotion)(she never did)</p>
+
+                            <br>
+
+
+                    <p class="text-gray-600">Something else noteworthy thing is I asked Roxi if anyone ever held the Lead Server position before me. No one had. It seems the position isn't official and no one has ever held that title.</p>
+
+
+
+
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">June 1 – June 6, 2025 – Stonewalling & Closed Case</h3>
+                    <p class="text-gray-600">I provided text screenshots from Cooper to HR. I also requested meeting notes, which was denied. I asked again and asked to know details about my case. I received a biased summary that omitted key details. My follow-up questions were ignored, and on June 6, HR representative Karen stated the case was closed and refused further communication.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">June 5 – June 6, 2025 – The Disciplinary Meeting Ambush</h3>
+                    <p class="text-gray-600">Roxi summoned me to a meeting without initially revealing its disciplinary nature. After I pressed for details, she admitted it was an HR matter. She refused my request to record the conversation, insisting HR would be a sufficient witness, a premise I rejected based on recent experience.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">June 6 – June 24, 2025 – Request for Accommodation & Unlawful Suspension</h3>
+                    <p class="text-gray-600">Citing stress due to my late-stage pregnancy, I formally requested reasonable accommodations for the meeting (e.g., corresponding via email, allowing a witness, or recording). Roxi refused, suspended me without pay, and on June 20, attempted to force my resignation by setting a response deadline. On June 24, I confirmed I was not resigning and reiterated my willingness to meet under safe, documented conditions.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-blue-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">June 25, 2025 – Wrongful Termination</h3>
+                    <p class="text-gray-600">Roxi sent a termination letter, falsely claiming I "refused to meet."</p>
+                </div>
+            </div>
+            <div id="timeline-wages" class="timeline-content hidden border-l-2 border-red-500 pl-6 space-y-8">
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-red-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">February 2025 – Pay Rate Change & Initial Discovery</h3>
+                    <p class="text-gray-600">Noticed paychecks were significantly higher. Investigation revealed pay rate had changed from $5/hr to $17/hr. Discovered that the "Tip Make Up" line item on pay stubs was being used to reach minimum wage, which research indicated was not legal. This led to learning about improper Service Charge disclosures on the menu and questionable use of "commission" to meet minimum wage. Began closely monitoring all paychecks henceforth.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-red-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">March 2–5, 2025 – “Clarification on Earnings Summary Line Items” Email Thread</h3>
+                    <p class="text-gray-600">Emailed former bookkeeper, Lynn, requesting clarification on paystub line items, primarily "Tip Make Up" and "Commission." Lynn's explanation—that "Tip Make Up" was "missed" tips added later by management—was nonsensical. Her explanation of "Commission" as 15% of gross sales seemed inconsistent with actual earnings.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-red-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">March 14–18, 2025 – “Clarification Regarding Pay” Email Thread</h3>
+                    <p class="text-gray-600">Hourly wage was reduced from $17 to $16.66 without notice. After raising the issue with Cooper, the wage was corrected and back-paid, attributed to an "accidental" change. This unilateral reduction to the minimum legal rate was particularly disheartening following the recent promotion and raise ordeal. In this exchange, both Cooper and Lynn confirmed in writing that "Tip Make Up" constituted my own "missed" tips, which were being used to meet minimum wage.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-red-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">March 29 – June 1, 2025 – Manual Tip Tracking</h3>
+                    <p class="text-gray-600">Began meticulously handwriting all tips and bottle commissions after every pay period to independently verify paycheck accuracy.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-red-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">May 12–18, 2025 – “FW: A. Brauer pay info” Email Thread</h3>
+                    <p class="text-gray-600">Identified miscalculations in tips and wine bottle commissions. Reported the issue to the new bookkeeper, Suzie, who stated she would investigate.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-red-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">May 23, 2025 – HR Meeting</h3>
+                    <p class="text-gray-600">During the HR meeting regarding the pregnancy comment, also raised the systemic wage issues. Roxi claimed others had issues but provided only a trivial example. She committed to speaking with the bookkeeper but failed to follow through on other action items discussed (reviewing camera footage, discussing a raise).</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-red-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">May 29–31, 2025 – “Reports and Pay Periods” Email Thread</h3>
+                    <p class="text-gray-600">Emailed Suzie about discovering more pay errors, expressing frustration over finding hundreds of dollars in discrepancies. Requested all End-of-Day reports from Toast since the start of employment to conduct a full personal audit. Suzie agreed only to audit from Dec 30, 2024 onward and did not respond to questions about whether other employees had similar issues or about the company's family meal budget.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-red-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">June 18, 2025 – “Server Reports for 2025”</h3>
+                    <p class="text-gray-600">Suzie confirmed the wage errors found, discovered additional errors, and issued another reimbursement with an extra $100. However, she only provided reports from Dec 2024 to the present, not from the start of employment as requested.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 h-4 w-4 bg-red-500 rounded-full"></div>
+                    <h3 class="font-bold text-lg text-slate-800">Current Status – July 2025</h3>
+                    <p class="text-gray-600">As of July 1, 2025, the complete End-of-Day reports from the start of employment have not been provided. Preparing to file formal complaints with Washington Labor & Industries (L&I) and the Washington State Human Rights Commission (WSHRC).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab for Documents -->
+        <div id="tab-documents" class="tab-content">
+            <h2 class="text-2xl font-bold text-slate-700 mb-6">Supporting Documents</h2>
+            <div class="space-y-1">
+
+                <details class="document-category group" closed>
+    <summary class="flex items-center cursor-pointer p-4">
+        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+        Text messages regarding pregnancy comment
+    </summary>
+    <div class="pl-5 pt-2 border-l-2 ml-5 space-y-1">
+
+        <details class="document-category group" closed>
+            <summary class="flex items-center cursor-pointer p-4">
+                <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                Conversation with Roxana Acock (Feb 12, 2025)
+            </summary>
+            <div class="pl-5 pt-2 border-l-2 ml-5">
+                <div class="p-4">
+                    <div class="chat-container flex flex-col bg-gray-50 border border-gray-200 rounded-lg p-4 sm:p-6 space-y-2">
+                        <div class="date-separator">Wednesday, February 12, 2025</div>
+                        <div class="chat-bubble chat-bubble-sent"><p>Hi Roxy, I wanted to clarify our recent conversation about the promotion and raise. It seemed like there was some uncertainty on whether I'd want it because of my pregnancy. I'd like to confirm that I'm fully interested. 😊 Can we move forward?</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">11:17 AM</p></div>
+                        <div class="chat-bubble chat-bubble-received"><p>Hi Arianne thanks for reaching out. I need to double check what this would start and duty descriptions entail. Thank you! 😊</p><p class="text-right text-xs mt-1 chat-meta">11:19 AM</p></div>
+                        <div class="chat-bubble chat-bubble-sent"><p>May I ask what duties you'll be double checking on? Also, what would determine the appropriate moment for me to get this?</p><p class="mt-2">Apologies, this is why I wanted clarification because last time we spoke, it sounded as if you and Cooper simply weren't sure if I wanted the position, as I mentioned in the last text.</p><p class="mt-2">Thanks!!</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">11:28 AM</p></div>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+        <details class="document-category group" closed>
+            <summary class="flex items-center cursor-pointer p-4">
+                <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                Conversation with Cooper (Feb 14 - 17, 2025)
+            </summary>
+            <div class="pl-5 pt-2 border-l-2 ml-5">
+                <div class="p-4">
+                    <div class="chat-container flex flex-col bg-gray-50 border border-gray-200 rounded-lg p-4 sm:p-6 space-y-2">
+                        <div class="date-separator">Friday, February 14, 2025</div>
+                        <div class="chat-bubble chat-bubble-sent"><p>Hey Cooper, hope you're well! This is Arianne from Yellow Hawk :)</p><p class="mt-2">As you know I've been wanting a promotion to 'Lead Server' as well as a pay bump.. I've been sort of pushing for it for some months now, and recently when I followed up again Roxy mentioned that there was some uncertainty between you two as to whether I'd want the position due to my pregnancy. I just wanted to say that I certainly do and despite my pregnancy will continue to work :)</p><p class="mt-2">I mentioned it to Roxy, and she replied that she needed to check in on the responsibilities/timeline. I asked for specifics and no reply for a while, so I thought I'd ask you directly especially since she;s so swamped as it is.</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">5:02 PM</p></div>
+                        <div class="chat-bubble chat-bubble-received"><p>Hello Arianne! I'm not sure what you are referring to as I haven't had any conversations about this with Roxy. (and I haven't heard about your pregnancy but congratulations!!! How exciting!!). I'll follow up with Roxy tomorrow and find out what the situation is. Again Congrats and we will follow up!</p><p class="text-right text-xs mt-1 chat-meta">5:06 PM</p></div>
+                        <div class="chat-bubble chat-bubble-sent"><p>Oh! Maybe I misunderstood, I was told she had a meeting about this. Tomorrow it is! As I mentioned, I've been angling for any promotion opportunities and thought I'd be proactive.</p><p class="mt-2">Thank you for the congrats 😊</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">5:19 PM</p></div>
+                        <div class="chat-bubble chat-bubble-received"><p>No worries. We will chat about it. It is not terribly busy right now (as you know)...but we will follow up!</p><p class="text-right text-xs mt-1 chat-meta">5:20 PM</p></div>
+                        <div class="chat-bubble chat-bubble-sent"><p class="text-2xl">👍</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">5:39 PM</p></div>
+                        <div class="date-separator">Monday, February 17, 2025</div>
+                        <div class="chat-bubble chat-bubble-sent"><p>Hey Cooper, were you able to follow up with Roxi? 😊</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">5:39 PM</p></div>
+                        <div class="chat-bubble chat-bubble-received"><p>We talked today. We both agree we don't need a lead server (at this point) but more of a trainer for new team members. She will go over this with you this week when you are back at work!</p><p class="text-right text-xs mt-1 chat-meta">5:42 PM</p></div>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+    </div>
+</details>
+
+
+
+      
+
+                <details class="document-category group">
+                    <summary class="flex items-center cursor-pointer p-4">
+                        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                        Complaint to HR about pregnancy comment
+                    </summary>
+                    <div class="pl-5 pt-2 border-l-2 ml-5 space-y-2">
+                        <!-- ADD EMAIL BLOCKS HERE -->
+
+                        <details class="document-item group" closed>
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Clarification Regarding Pay (Mar 14 - May 5, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Friday, March 14, 2025 1:42 PM<br>
+        <strong>To:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Cooper Mills &lt;Cooper@fire-vine.com&gt;<br>
+        <strong>Subject:</strong> Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Dear Cooper and Roxi,</p>
+            <p>I hope you're both doing well. I have a few questions regarding my pay and status that I'd appreciate clarification on.</p>
+            <p><strong>Pay Questions:</strong></p>
+            <ol class="list-decimal list-inside space-y-1">
+              <li>Can you clarify why my pay was reduced and why I wasn't given prior notice?</li>
+              <li>Who decided I deserved to have a pay reduction, and why?</li>
+              <li>Why was my previous sick pay lower than minimum wage?</li>
+            </ol>
+            <p class="mt-2"><strong>Promotion/Pay Raise Questions (for Roxy):</strong></p>
+            <ol class="list-decimal list-inside space-y-1">
+              <li>Did my pregnancy factor into the changes regarding my promotion?</li>
+              <li>Why was I told that you were discussing my promotion & pay raise with Cooper for months?</li>
+              <li>Why was I informed that there was uncertainty between you and Cooper about whether I wanted the promotion due to my pregnancy?</li>
+              <li>Why was Cooper unaware of these discussions when I reached out?</li>
+              <li>When I asked you about the delay in the decision after being denied, I was told that "these things take time" - but after reaching out to Cooper, I received a definitive answer within two weeks. Could you clarify this discrepancy? What took months to figure out? And with whom were you discussing this with, if not with Cooper?</li>
+            </ol>
+            <p class="mt-2">I feel misled and strung along. I was encouraged to stay at Yellowhawk during the slow season with the understanding that I would receive a promotion and pay raise. I was trained for the role and engaged in discussions about it for months. However, the decision seemed to shift suddenly, and I was told that my pregnancy might impact whether I wanted the role-despite my consistent interest. This has been confusing, and I'd appreciate a clearer understanding of what happened.</p>
+            <p>Honestly I decided to let it go, even though I felt deceived. But seeing my pay reduction is a little much...Truly, I feel I need an actual explanation.</p>
+            <p>Thank you for your time. I look forward to your response.</p>
+            <p>Best,<br>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 18, 2025 at 2:26 PM<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Arianne,</p>
+            <p>Here are the answers to your questions...wrote in all caps under each question to read easier (it isn't shoutingL:)!)</p>
+            <p><strong>Pay Questions:</strong></p>
+            <ol class="list-decimal list-inside space-y-2">
+                <li><strong>Can you clarify why my pay was reduced and why I wasn't given prior notice?</strong><br>OWNERSHIP HEARD ABOUT THE SERVICE CHARGE ISSUES WITH GUESTS AND SINCE WE ARE NOT SERVING A FULL FOOD MENU, THEY DECIDED TO MOVE BACK TO A NORMAL TIP MODEL. ROXY DISCUSSED WITH YOU AND THE TEAM (ROXY CAN EXPAND ON THAT) AS YOU CAN SEE IN #2, YOUR PAY INCREASED WHEN YOU MOVED OFF OF THE COMMISSION MODEL TO THE REGULAR TIP MODEL. NOT SEEING A PAY DECREASE.</li>
+                <li><strong>Who decided I deserved to have a pay reduction, and why?</strong><br>AGAIN, THE DATA DOES NOT SHOW A PAY DECREASE. OWNERSHIP DECEIDED TO MOVE OFF OF COMMISSION MODEL AND BACK TO THE REGULAR TIP MODEL. THIS STARTED WITH THE FEB 28TH PAYCHECK. YOUR AVG HOURLY RATE WAS $27.00 PER HOUR. THE PREVIOUS TWO CHECKS (UNDER COMMISSION MODEL) AVG HOURLY RATE FEB 14TH WAS $18.43 AND JANUARY 17TH WAS $20.70.</li>
+                <li><strong>Why was my previous sick pay lower than minimum wage?</strong><br>3/14 PAYROLL CHECK WAS INACCURATE... YOU WERE SHORTED BY $26.06 AFTER LYNN (NEW YH BOOKKEEPER) FOUND THE ERROR. THAT WILL BE ADDED TO YOUR NEXT CHECK! SEE ABOVE...IT WAS AN SYSTEM ERROR THAT HAS BEEN FIXED AND WILL BE PAID ON NEXT PAYCHECK</li>
+            </ol>
+            <p class="mt-2"><strong>Promotion/Pay Raise Questions (for Roxy):</strong></p>
+            <ol class="list-decimal list-inside space-y-2">
+                <li><strong>Did my pregnancy factor into the changes regarding my promotion?</strong><br>NOT AT ALL. WE ARE DOING LIMITED REVENUE THIS TIME OF THE YEAR AND HAVE NO NEED FOR A LEAD SERVER AT THIS TIME.</li>
+                <li><strong>Why was I told that you were discussing my promotion & pay raise with Cooper for months?</strong><br>ROXY MENTIONED TO ME THAT THERE WAS INTEREST FROM A TEAMMEMBER...AND WE SAID WE ARE NOT DOING ANYTHING UNTIL SALES INCREASE AND WE MOVE INTO THE BUSIER SEASON AT YH. ROXY DISCUSSED WITH YOU IN FEBRUARY ABOUT THE LEAD POSITION BUT TOLD YOU UNTIL BUSINESS PICKS UP, IT WOULDN'T HAPPEN...AND MAY SEEMS TO MAKE THE MOST SENSE AS THAT IS WHEN WE WILL BEGIN TO HIRE AND ONBOARD THE NEW TEAM MEMBERS</li>
+                <li><strong>Why was I informed that there was uncertainty between you and Cooper about whether I wanted the promotion due to my pregnancy?</strong><br>YOUR PREGANCY WAS NEVER A CONSIDERATION AND ROXY AND I NEVER DISCUSSED THAT. I ONLY FOUND OUT YOU WERE PREGNANT WHEN YOU TEXTED ME ON FEB 14TH ABOUT THE LEAD SERVER QUESTIONS.</li>
+                <li><strong>Why was Cooper unaware of these discussions when I reached out?</strong><br>I WASN'T CLEAR. WE HAD DISCUSSED A LEAD SERVER BUT DON'T DIDN'T REMEMBER IT SPECIFIC TO YOU...MORE CONFUSION ON MY END AS I DIDN'T REMEMBER US DISCUSSING SOMEONE SPECIFICALLY, JUST A "LEAD SERVER". WHICH AGAIN, WE DONT NEED AS THERE IS VERY LITTLE REVENUE (OR TRAINING) THAT NEEDS TO TAKE PLACE.</li>
+                <li><strong>When I asked you about the delay in the decision after being denied, I was told that "these things take time" - but after reaching out to Cooper, I received a definitive answer within two weeks. Could you clarify this discrepancy? What took months to figure out? And with whom were you discussing this with, if not with Cooper?</strong><br>ROXY CONTIUNED TO TELL YOU WE DO NOT HAVE THE BUSINESS LEVELS TO SUPPORT ADDING A LEAD SERVER AND THE GOAL FOR HIRING FOR THAT POSITION WAS GOING TO BE WHEN BUSINESS LEVEL INCREASE AND HIRING AND ONBOARDING START IN MAY.</li>
+            </ol>
+            <p class="mt-2">Happy to discuss more if you have any additional questions and feel free to reach out anytime to myself, Roxy or HR (Darcey)!</p>
+            <p>Again, congrats on the soon to be new addition to the family!</p>
+            <p>Take care,<br>Cooper Mills</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 3:24:27 PM<br>
+        <strong>To:</strong> Cooper Mills &lt;Cooper@fire-vine.com&gt;<br>
+        <strong>Subject:</strong> Fwd: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>I'm forwarding the message I sent that day</p>
+            <p>I suppose I'm confused at my base pay rate going from 17.00 an hour down to the absolute minimum 16.66. As shown in attached images. Am I understanding this wrong? I'm not referring to my average pay which is determined by my tips/etc - I'm talking about my actual pay rate. Someone made the choice to reduce it. I'm so glad to hear the new bookkeeper caught the sick leave! One other thing I wanted to confirm with you is the 'tip make-up' line item on paychecks. I was told by the wonderful new bookkeeper that this represents tips that were missed and later accounted for. Just wanted to double-check for clarity-thank you!</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 at 3:37 PM<br>
+        <strong>Subject:</strong> Re: Fw: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Arianna,</p>
+            <p>Added Roxy and Darcey to thread. Please make sure our correspondence have them included.</p>
+            <p>This was included about pay but apologies I wasn't clear. Here is Lynn's response to that wage change...she didn't catch how or why it changed but it's fixed and you are being paid what's owed:</p>
+            <p><em>One thing to note is that on PP05 they dropped her from $17.00 to $16.66 and I did not catch that. For her total pay we would owe her an additional $9.46. I reached out to AMP for this to be corrected</em></p>
+            <p>Cooper Mills<br>President<br>Fire & Vine Hospitality</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 3:50:49 PM<br>
+        <strong>To:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Cc:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Darcey McAllister &lt;darcey@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Fw: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Oops! I now know how to reply to all. I thought it was happening the whole time.</p>
+            <p>Thanks for your help! Just to confirm, it sounds like it was an error that my pay rate dropped to 16.66, and it will be corrected back to 17.00-do I have that right? I may have also missed your response to this part: just to confirm-'tip make up' is the amount management/bookkeeping adds to my paycheck to account for missed tips, correct? Apologies for all the questions-I just want to ensure I have a crystal-clear understanding, especially since there seem to be some discrepancies that need addressing. I really appreciate your time and clarification!</p>
+            <p>Thanks again,<br>Arianne</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, Mar 25, 2025 at 3:58 PM<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>All good...Ask away!</p>
+            <p>Yes...what was missed is being caught up on this payroll. Switch over from the old bookkeeper to Lynn wasn't the smoothiest but Lynn has got us all dialed in now and has our systems in place.</p>
+            <p>Cooper Mills<br>President<br>Fire & Vine Hospitality</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 4:02:44 PM<br>
+        <strong>To:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Okay glad to know about the pay rate. :)</p>
+            <p>How about the 'tip make up' line item? I just simply want to confirm that it's merely my tips that were missed and caught later and added to my pay check.</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, Mar 25, 2025 at 4:06 PM<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Don't forget reply all;)</p>
+            <p>I don't believe that is. I have added Lynn to the thread to explain what "tip make up" means on your paystub and how the back pay is recorded on this Friday's check (Lynn, would it be listed as "retro"? She should be able to get back to you tomorrow as I'm sure she is out by now.</p>
+            <p>Cooper Mills<br>President<br>Fire & Vine Hospitality</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 4:51:32 PM<br>
+        <strong>To:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;; Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Cc:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Darcey McAllister &lt;darcey@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Awesome thanks! Lynn replied/confirmed twice about this - I just wanted to be 100% sure that 'tip make up' were my tips that were 'missed' and then later added to my paycheck--referring to my previous paychecks prior to the changes-- again just for complete clarity. I'm not being obtuse on purpose I promise!! But Since you're deferring to Lynn I believe that answers everything for now. I'll take her previous answers as correct and I now fully understand. If she wants to clarify further, that's totally fine, but I think I've got it :)</p>
+            <p>Have a wonderful night</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Wednesday, Mar 26, 2025 at 10:40 AM<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Yes as stated before tip make up are tips that were missed previously/tips that were added through the workbook. This payroll you will have additional money added to your check and this is from the sick pay that was not paid out at minimum wage. Feel free to always ask questions. It's your money!</p>
+            <p>Have a great day,<br>Lynn Moller</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Friday, May 2, 2025 6:50:45 PM<br>
+        <strong>To:</strong> YHR Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Cc:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;; Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Darcey McAllister &lt;darcey@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Hi all,</p>
+            <p>I was reviewing my most recent pay stub and noticed that Wine Bottle Sales are listed at $0. This is clearly an error, and it's not the first one I've encountered as has been clearly demonstrated. I would like to be paid the full amount that I earned. Paystub before this one seemingly has me shorted $5 in tips, according to my records. Is there any way this can be confirmed and rectified? Lastly, Cooper - I reached out to Darcy twice separately via email, but I've received no reply. I checked to make sure I got the right email but maybe this chain will work.</p>
+            <p>Thank you,<br>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 5, 2025 1:15 PM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;; YHR Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Cc:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Wendi Modarelli &lt;Wendi@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Arianna,</p>
+            <p>Darcey is no longer with HRT. I believe you talked with Wendi. She is added to the thread and can answer to your response. I believe Roxy discussed the pay I for with you.</p>
+            <p>Cooper Mills<br>President<br>Fire & Vine Hospitality</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Wendi Modarelli &lt;wendi@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 5, 2025<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>Yes, I sent you a reply on behalf of Darcey since she is no longer with us. I'll find that note and forward it to you; perhaps it went to a junk mailbox?</p>
+            <p>Warm regards,<br>Wendi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+                    </div>
+                </details>
+
+                <details class="document-category group">
+                    <summary class="flex items-center cursor-pointer p-4">
+                        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                        Emails about meeting with HR
+                    </summary>
+                    <div class="pl-5 pt-2 border-l-2 ml-5 space-y-2">
+                        <!-- ADD EMAIL BLOCKS HERE -->
+
+
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Yellowhawk/Arianne Brauer (April 11 - 27, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Friday, April 11, 2025 5:28 PM<br>
+        <strong>To:</strong> Darcey McAllister<br>
+        <strong>Subject:</strong> Yellowhawk/Arianne Brauer<br>
+        <div class="mt-2">
+            <p>Hi Darcey,</p>
+            <p>Thanks for reaching out. I did read Cooper's response, however I still expected HR to investigate/follow up with me on this in-at the very least to ask me some questions.</p>
+            <p>May I ask have you personally looked into this, or was Cooper's response considered a full resolution to the issue?</p>
+            <p>Best,<br>Arianne</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Sunday, April 27, 2025 9:26 AM<br>
+        <strong>To:</strong> Darcey McAllister &lt;darcey@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Yellowhawk/Arianne Brauer<br>
+        <div class="mt-2">
+            <p>Hey Darcy, wondering if you've had the chance to look at my email.</p>
+            <p>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Wendi and the HRT Northwest team<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> Re: Yellowhawk/Arianne Brauer<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>I just discovered that this email seems to have been stuck in our outbox folder and isn't sending to you for some reason. Apologies for the delay.</p>
+            <p>As Cooper noted, Darcey is no longer with HRT. However, she asked us to answer the note below and said she discussed this matter and was in full agreement with Cooper; therefore, she felt that his response was adequate.</p>
+            <p>If you have further questions, please feel free to contact our team info@hrtnorthwest.com.</p>
+            <p>Warm regards,</p>
+            <p>Wendi and the HRT Northwest team</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Your note to Darcey (April 11 - May 5, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Friday, April 11, 2025 5:28 PM<br>
+        <strong>To:</strong> Darcey McAllister<br>
+        <strong>Subject:</strong> Yellowhawk/Arianne Brauer<br>
+        <div class="mt-2">
+            <p>Hi Darcey,</p>
+            <p>Thanks for reaching out. I did read Cooper's response, however I still expected HR to investigate/follow up with me on this in-at the very least to ask me some questions.</p>
+            <p>May I ask have you personally looked into this, or was Cooper's response considered a full resolution to the issue?</p>
+            <p>Best,<br>Arianne</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Sunday, April 27, 2025 9:26 AM<br>
+        <strong>To:</strong> Darcey McAllister &lt;darcey@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Yellowhawk/Arianne Brauer<br>
+        <div class="mt-2">
+            <p>Hey Darcy, wondering if you've had the chance to look at my email.</p>
+            <p>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Wendi Modarelli &lt;Wendi@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 5, 2025 2:49 PM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> Your note to Darcey<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>It appears this note never made it to you; my apologies for that. I attempted to send it on 4/28 and it ended up stuck in our "outbox."</p>
+            <p>As noted, Darcey is no longer working with HRT and our team has taken over for her. Darcey let me know that she discussed this and was in full agreement with Cooper; therefore, she felt that that response was adequate.</p>
+            <p>If anything new has come up that you need help with, please let us know. The best contact for us is info@hrtnorthwest.com as someone regularly checks this email on business days, Monday - Friday.</p>
+            <p>Warm regards,</p>
+            <p>Wendi and the HRT team</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 5, 2025 5:43 PM<br>
+        <strong>To:</strong> Wendi Modarelli &lt;Wendi@hrtnorthwest.com&gt;<br>
+        <strong>Cc:</strong> HRT Information and Updates &lt;info@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Your note to Darcey<br>
+        <div class="mt-2">
+            <p>Thank you for reaching out, Wendi.</p>
+            <p>As I understand the situation: I was offered the lead server position but was misled about it for several months. This ultimately culminated in Roxi telling me the role was "potentially" no longer available due to my pregnancy-based on an assumption that I might not want the position anymore.</p>
+            <p>When I brought this concern to Cooper, I learned there had been no discussions or decisions regarding the role at all, despite being told repeatedly that Roxi was in active conversations with him about it.</p>
+            <p>After escalating my concerns to both Cooper and HR, it appears Darcey deferred entirely to Cooper, whose only action was to ask Roxi if she had mentioned my pregnancy. Roxi denied it, and that was treated as the full extent of the inquiry. As for being misled over the course of several months, that issue seems to have been completely disregarded. Cooper simply stated that the position was never and is currently not available directly contradicting everything Roxi had told me.</p>
+            <p>At a minimum, I expected HR to conduct a basic, good-faith investigation. What I experienced instead felt cursory at best and dismissive.</p>
+            <p>I would appreciate clarification on what was actually discussed between Cooper and Darcey, and whether Darcey ever spoke directly with Roxi. From my perspective, it seems Cooper assured Darcey that everything was fine, and the matter was dropped. She said she would be glad to speak with me but I received no further replies until she left the position.</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+          <strong>From:</strong> Wendi Modarelli &lt;Wendi@hrtnorthwest.com&gt;<br>
+          <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+          <strong>Subject:</strong> Re: Your note to Darcey<br>
+          <div class="mt-2">
+              <p>Hi Arianne,</p>
+              <p>Thank you for the note, and we appreciate you expressing your concerns in further detail. We do want to investigate this further, and I will have a member of our team reach out to you soon. We will be in touch, likely by the end of this week. Thanks again.</p>
+              <p>Warmly,<br>Wendi</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email: Automatic Reply: Clarification Regarding Pay (April 30, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Darcey McAllister &lt;darcey@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, April 30, 2025<br>
+        <strong>Subject:</strong> Automatic reply: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Hello! As of April 30, 2025 i no longer work for HRT Northwest. Please contact info@hrtnorthwest.com for support. Thank you.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: HRT Call (May 7 - May 8, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Wednesday, May 7, 2025 3:27 PM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> HRT Call<br>
+        <div class="mt-2">
+            <p>Hello Arianne,</p>
+            <p>I hope all is well. I am on the HRT team that supports Yellowhawk, along with Wendi and Karen. It is a pleasure to meet you over email!</p>
+            <p>Wendi passed along your note and Karen and I would like to connect with you this week. Can we give you a call Friday afternoon at 1:30pm? Thank you!</p>
+            <p>Best,<br>Aleigh</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Thursday, May 8, 2025 3:18 PM<br>
+        <strong>To:</strong> Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;<br>
+        <strong>Cc:</strong> Karen Rylander &lt;Karen@hrtnorthwest.com&gt;; Wendi Modarelli &lt;Wendi@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: HRT Call<br>
+        <div class="mt-2">
+            <p>Yes, I can do a phone call tomorrow at 1:30 pm</p>
+            <p>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Thursday, May 8, 2025 3:33 PM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: HRT Call<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>Wonderful! We will plan to give you a call tomorrow at 1:30pm.</p>
+            <p>Can you please share with me the best number to reach you?</p>
+            <p>Best,<br>Aleigh</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Thursday, May 8, 2025 3:45 PM<br>
+        <strong>To:</strong> Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;<br>
+        <strong>Cc:</strong> Karen Rylander &lt;Karen@hrtnorthwest.com&gt;; Wendi Modarelli &lt;Wendi@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: HRT Call<br>
+        <div class="mt-2">
+            <p>Yes, my number is:<br>(509)540-0899</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: HRT Call<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>Thank you! Have a great rest of your afternoon.</p>
+            <p>Best,<br>Aleigh</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: HRT Follow-Up Conversation (May 16 - May 19, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Friday, May 16, 2025 7:44 AM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> HRT Follow-Up Conversation<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>I hope you are having a great week!</p>
+            <p>As discussed, we would like to have another conversation to include you, Roxy, Karen and myself. Would you be available to mee with us next Friday, May 23rd at 8:30am? Thank you!</p>
+            <p>Best,<br>Aleigh</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 19, 2025 10:35 AM<br>
+        <strong>To:</strong> Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: HRT Follow-Up Conversation<br>
+        <div class="mt-2">
+            <p>Yes, I can do Friday at 8:30 am. Just so I can have some clarity, is this in person meeting, a phone call or something like Zoom?</p>
+            <p>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: HRT Follow-Up Conversation<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>Excellent - thank you! This will be a teams meeting and I will send over the calendar invite shortly.</p>
+            <p>Best,<br>Aleigh</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: HR Meeting Follow-Up (June 1 - June 2, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Sunday, June 1, 2025 7:23 AM<br>
+        <strong>To:</strong> Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;; Karen Rylander &lt;Karen@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> HR meeting<br>
+        <div class="mt-2">
+            <p>Hey Aleigh and Karen,</p>
+            <p>This is Arianne Brauer. Apologies for the delay. Since I wasn't able to record the HR meeting, I was wondering if I could have copies of your notes?</p>
+            <p>Also, here are my screenshots I said I'd provide of Cooper not knowing what I was talking about, nor did he know about my pregnancy. Keep in mind, during the meeting, Roxi stated that her and Cooper did have a few conversations about the lead server position. If that is the case, then his response to my text doesn't make sense.</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Karen Rylander &lt;Karen@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Monday, June 2, 2025 10:21 AM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: HR meeting<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>We received your message and request for notes from our meeting with you and Roxy on 5/23/25. These notes are considered internal documentation and we do not share them.</p>
+            <p>As Roxy and Cooper have stated, a new server position would be dependent on business need. There is not a business need for a new server position at Yellowhawk at this time.</p>
+            <p>Sincerely,<br>Karen and Aleigh</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Monday, June 2, 2025 (after 10:21 AM)<br>
+        <strong>To:</strong> Karen Rylander &lt;Karen@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: HR meeting<br>
+        <div class="mt-2">
+            <p>All your documentation is internal, so does that mean I’m entitled to no information at all?</p>
+            <p>I’m requesting all relevant documentation I’m entitled to regarding my discrimination case, including details on who is/was assigned to my case, what actions have been taken, who was interviewed, and what was investigated - including timelines.</p>
+            <p>You ladies denied me the ability to record our discussion, despite explaining it was to aid my memory, as I couldn’t take notes while fully engaging in the conversation as you were. This puts me at a huge disadvantage, so please provide any relevant notes, summaries, or records from those meetings to ensure transparency.</p>
+            <p>Lastly, to clarify, the screenshots I provided were not a request for a position but evidence to show that someone is being dishonest, and it’s not me. While it seems no action will be taken on this, I insist on receiving all documentation I'm entitled to regarding my case.</p>
+            <p>Please send these materials promptly.</p>
+            <p>Thank you</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Meeting Summary (June 4, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Karen Rylander &lt;Karen@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Wednesday, June 4, 2025 3:00 PM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Meeting Summary<br>
+        <div class="mt-2">
+            <p>Hello Arianne,</p>
+            <p>Here is a general summary of our notes from the meeting between you, Roxy, and HRT on 5/23/2025.</p>
+            <p>Karen Rylander<br>HR Consultant<br>Karen@hrtnorthwest.com<br>www.HRTnorthwest.com</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Wednesday, June 4, 2025 (after 3:00 PM)<br>
+        <strong>To:</strong> Karen Rylander &lt;Karen@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Meeting Summary<br>
+        <div class="mt-2">
+            <p>Thank you for providing the notes I originally requested.</p>
+            <p>Why was I initially denied these notes regarding my case, citing it as "internal", especially after being refused the ability to record for my memory? Furthermore, explain why it was denied to me, but now is being forwarded to Roxy? (To be clear, I am 100% okay with Roxy receiving the notes, I am not okay that I was denied them, had to push back for them, and then they're sent to another person that didn't even request them) - I'm trying to understand the policies that govern information access to ensure they are applied equitably.</p>
+            <p>Please send the other information I've asked for in my previous email as I'm compiling information regarding this - for no other reason than I like to have everything 100% complete, organized, and accounted for, again, for my memory. Call it a quirk.</p>
+            <p>Finally, I'd like HRT Northwest policy on the handling of discrimination complaints. Basically, what is the playbook over there at HRT Northwest when a discrimination complaint is received?</p>
+            <p>Thanks so much ladies.</p>
+            <p><strong>SUMMARY:</strong></p>
+            <ol class="list-decimal list-inside space-y-1">
+                <li>Explain why I was denied the notes initially</li>
+                <li>Explain why there's seemingly a discrepancy in information access</li>
+                <li>Send the previously requested information
+                    <ul class="list-disc list-inside ml-4">
+                        <li>Details on who was/is assigned to the case</li>
+                        <li>The actions they took, and when they took them</li>
+                        <li>Who was interviewed regarding my case</li>
+                        <li>Summaries of the interviews</li>
+                    </ul>
+                </li>
+                <li>Description of HRT policy on the handling of these types of cases</li>
+            </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Final Communication Regarding Your Complaint (June 6, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Karen Rylander &lt;Karen@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Friday, June 6, 2025 1:15 PM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: Meeting Summary<br>
+        <div class="mt-2">
+            <p>Arianne,</p>
+            <p>Thank you again for raising your concerns. We have completed a full review in line with our internal policies and procedures. At this time, the matter is closed.</p>
+            <p>We want to address your ongoing requests for internal investigation procedures, the names of individuals involved in the review, and access to internal notes. We will not be sharing any internal processes, investigation materials, or information about personnel involved in handling the matter. Any internal documents we may have are not shared as part of our standard practice. We will not be making an exception here.</p>
+            <p>Regarding the short summary that was provided to you after your initial request for investigation notes: while we originally informed you that investigation notes would not be shared, we decided to create and share a brief summary of the conversation in which you were personally involved, in good faith and with the intent to be transparent and supportive. This was not a reversal of our position, but rather an attempt to provide clarity on a limited and relevant point.</p>
+            <p>As the case is now closed, unless you have new and relevant information to provide, we will not be engaging in further correspondence on this matter.</p>
+            <p>Thank you for your attention to this.</p>
+            <p>Sincerely,<br>HRT Northwest and Fire & Vine/Yellowhawk Management</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Friday, June 6, 2025 3:31 PM<br>
+        <strong>To:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Subject:</strong> Re: Final Communication Regarding Your Complaint<br>
+        <div class="mt-2">
+            <p>Dear Cooper,</p>
+            <p>I'm deeply concerned that my discrimination case related to my pregnancy, has not been investigated. I am being refused information regarding my case, and was told I would receive no further responses whatsoever. They didn't answer a single question. Would you be able to determine whether any investigation happened, and if so, what steps were taken? I realize nothing will be done; as of right now I'm trying to determine whether an investigation ever even occurred.</p>
+            <p>Roxy informed me that she wants to discuss a matter in person tomorrow, requiring me to arrive an hour early. Despite my repeated requests for details and my preference for email communication to keep everything documented - due to prior issues with her - she refused. When I directly asked why this had to be inperson, off the record, and early, she admitted it's an HR meeting. There's no justifiable reason for her to withhold this information or be evasive. She could have simply stated it was an HR meeting from the start. Her actions suggest an intentional attempt to catch me off guard, as there's no valid reason to conceal a scheduled HR meeting.</p>
+            <p>P.S. I am still in the process of determining just how much money was withheld from me over the years. I have confirmed to have been withheld hundreds as of now - potentially thousands of dollars over the years in multiple ways, on multiple fronts: Tips withheld, bottle sales withheld, incorrect minimum wage, having my wage reduced, even incorrect sick pay. I have had wages withheld in every way feasible other than direct theft. How is this possible? I have received no valid reason for having this many wage issues, no explanation, absolutely nothing. Only delays and reimbursements. I'm still waiting on reimbursements on confirmed amounts. I'm also still waiting for a response from the Bookkeeper regarding all of this - she is currently investigating and preparing to send me the reports by scanning them, so I'm very grateful!</p>
+            <p>Thanks much</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: Final Communication Regarding Your Complaint<br>
+        <div class="mt-2">
+            <p>Arianne,</p>
+            <p>I can confirm the investigation happened and you have been informed that this matter was investigated and is considered closed. As stated, unless you have new and relevant information, we will not be engaging in further correspondence on this matter. Susie is working with AMP on a full audit of your pay to address your concerns.</p>
+            <p>Cooper Mills<br>President<br>FIRE & VINE HOSPITALITY</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+
+
+                    </div>
+                </details>
+                
+                <details class="document-category group">
+                    <summary class="flex items-center cursor-pointer p-4">
+                        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                        Summary of meeting from HR
+                    </summary>
+                    <div class="pl-5 pt-2 border-l-2 ml-5 space-y-2">
+                        <!-- ADD EMAIL BLOCKS HERE -->
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Meeting Summary (May 23, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-2">
+      <h3 class="font-bold">Summary of Meeting with Arianne Brauer, Roxy Spence, Yellowhawk on 5/23/25</h3>
+      <p class="text-xs italic">by Karen Rylander and Aleigh Smith, HRT</p>
+      
+      <p>Arianne believes that she was offered a lead server job, and that Cooper approved it. Arianne was excited at feeling valued and potentially getting more pay. She repeatedly asked Roxy when it would happen. Roxy said there was never an offer for an actual date; she was also excited about the prospect, but the business has not been able to support hiring another person.</p>
+      
+      <p>Arianne believes that Roxy asked her if she still wanted the lead server job, because of Arianne's pregnancy. Roxy apologized for that misunderstanding. She remembers congratulating Arianne but does not believe or remember asking if Arianne's pregnancy would affect her interest in the job.</p>
+      
+      <p>Arianne emailed Cooper to say her pregnancy would not affect her being lead server. According to Arianne, Cooper responded that he did not know Arianne was interested, or that she was pregnant.</p>
+      
+      <p>Arianne is still disappointed for what she said was "being led to believe" she would be getting the lead server job before long. Roxy was apologetic for the apparent misunderstanding but reiterated that a new server position will not be added unless and until business picks up. They still have different recollections.</p>
+      
+      <p>Arianne said she has been struggling with pain when working but has not mentioned it to Roxy. Roxy said she tries to check in with Arianne and needs to know if Arianne is struggling, so Roxy can help. Arianne agreed to do so.</p>
+      
+      <p>Arianne is waiting for information for a commission on wine bottles she sold that apparently should have been paid. Roxy said the new bookkeeper will be working on it when she returns from a trip soon.</p>
+      
+      <p>Arianne also asked if there is any chance she could have a "bump" in her pay at this point, even if there's no lead server position available. Roxy had no answer, but agreed to bring it up with Cooper.</p>
+      
+      <p>Although there was not complete agreement on what happened, Arianne and Roxy both said they could amicably work together after this meeting.</p>
+    </div>
+  </div>
+</details>
+
+
+
+
+                    </div>
+                </details>
+
+                <details class="document-category group">
+                    <summary class="flex items-center cursor-pointer p-4">
+                        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                        Emails regarding complaints about wages
+                    </summary>
+                    <div class="pl-5 pt-2 border-l-2 ml-5 space-y-2">
+                        <!-- ADD EMAIL BLOCKS HERE -->
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Clarification on Earnings Summary Line Items (March 2 - 5, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Sunday, March 2, 2025 12:19 PM<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Clarification on Earnings Summary Line Items<br>
+        <div class="mt-2">
+            <p>Hello again,</p>
+            <p>I'm reviewing my earnings summary and would appreciate some clarification on a few line items. Could you please describe what the following represent?</p>
+            <ul class="list-disc list-inside ml-4">
+                <li>Regular Hours</li>
+                <li>Commission (especially the breakdown of how it is calculated)</li>
+                <li>Tip Makeup</li>
+                <li>Tips on Check</li>
+                <li>Wine Club Commissions</li>
+                <li>WA L&I</li>
+            </ul>
+            <p>I know, some are obvious, I'm just looking for insight that's all. I'd especially appreciate more details on the commission structure, including how it's determined and any relevant factors.</p>
+            <p>Thank you for your time and help!</p>
+            <p>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Monday, March 3, 2025 1:15 PM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification on Earnings Summary Line Items<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>Regular hours are the hours you worked. This is how you will be getting paid moving forward. An hourly rate.</p>
+            <p>Tip Make up is if any Tips were missed this is paid out to you at that time.</p>
+            <p>Tips on check is how any tips from credit cards will be getting paid to you moving forward.</p>
+            <p>Wine Club Commissions is not something that you will be receiving.</p>
+            <p>WA L & I is Washington State Labor and Industries is workers compensation insurance.</p>
+            <p>You also get wine bottle incentive so you get a dollar a bottle that you sell in the tasting room.</p>
+            <p>I hope this helps clear things up!</p>
+            <p>Lynn Moller<br>Yellowhawk Resort</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Monday, March 3, 2025 1:27 PM<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification on Earnings Summary Line Items<br>
+        <div class="mt-2">
+            <p>Thank you!</p>
+            <p>Tip Make Up: Could you elaborate further? What does missed tips mean?</p>
+            <p>Also, I realize the line items have changed, however I still need to know the details of them, so I appreciate the response. Could you please go into detail on the 'Commission' line item as well - how it's calculated, where it's from etc?</p>
+            <p>Thanks again,</p>
+            <p>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+       <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Monday, March 3, 2025 2:22 PM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification on Earnings Summary Line Items<br>
+        <div class="mt-2">
+            <p>Sure.</p>
+            <p>Tip Make up-for example if a server missed or rang in as a different amount for a tip on a credit card or cash, but it was caught by the manager or bookkeeper it gets added to the paycheck.</p>
+            <p>Commission is based off the gross sales for the employee on that day. It was 15%. For example if you had $1000 in gross sales your commission for the day would be $150.00 plus whatever tips you got. Cash tips you get at the time and charged tips come on your paycheck.</p>
+            <p>Is that a better explanation?</p>
+            <p>Hope that clears it up!</p>
+            <p>Lynn Moller<br>Yellowhawk Resort</p>
+        </div>
+      </div>
+       <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Monday, March 3, 2025 2:37 PM<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification on Earnings Summary Line Items<br>
+        <div class="mt-2">
+            <p>Yes, that clarifies things, thank you!</p>
+            <p>Just one last question: How is 'gross sales' calculated? Is it 15% of the total bill paid by the table, or is it 15% of the service charge?</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 4, 2025 1:42 PM<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification on Earnings Summary Line Items<br>
+        <div class="mt-2">
+            <p>Hello, apologies for inquiring again it's just I'm doing taxes and apparently need the info, I'm itching to get them filed ASAP :)</p>
+            <p>I just need to know 'where' exactly the commission is 'obtained' from at a 15% rate: For example total bill or Service Charge?</p>
+            <p>Thanks again Lynn</p>
+        </div>
+      </div>
+       <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> March 5, 2025 4:00 PM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> RE: Clarification on Earnings Summary Line Items<br>
+        <div class="mt-2">
+            <p>No problem. It is based of the Gross Sales for the day. It is not the service charge.</p>
+            <p>You should have everything you need to file taxes on your W2</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+
+
+<details class="document-item group" closed>
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Clarification Regarding Pay (Mar 14 - May 5, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Friday, March 14, 2025 1:42 PM<br>
+        <strong>To:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Cooper Mills &lt;Cooper@fire-vine.com&gt;<br>
+        <strong>Subject:</strong> Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Dear Cooper and Roxi,</p>
+            <p>I hope you're both doing well. I have a few questions regarding my pay and status that I'd appreciate clarification on.</p>
+            <p><strong>Pay Questions:</strong></p>
+            <ol class="list-decimal list-inside space-y-1">
+              <li>Can you clarify why my pay was reduced and why I wasn't given prior notice?</li>
+              <li>Who decided I deserved to have a pay reduction, and why?</li>
+              <li>Why was my previous sick pay lower than minimum wage?</li>
+            </ol>
+            <p class="mt-2"><strong>Promotion/Pay Raise Questions (for Roxy):</strong></p>
+            <ol class="list-decimal list-inside space-y-1">
+              <li>Did my pregnancy factor into the changes regarding my promotion?</li>
+              <li>Why was I told that you were discussing my promotion & pay raise with Cooper for months?</li>
+              <li>Why was I informed that there was uncertainty between you and Cooper about whether I wanted the promotion due to my pregnancy?</li>
+              <li>Why was Cooper unaware of these discussions when I reached out?</li>
+              <li>When I asked you about the delay in the decision after being denied, I was told that "these things take time" - but after reaching out to Cooper, I received a definitive answer within two weeks. Could you clarify this discrepancy? What took months to figure out? And with whom were you discussing this with, if not with Cooper?</li>
+            </ol>
+            <p class="mt-2">I feel misled and strung along. I was encouraged to stay at Yellowhawk during the slow season with the understanding that I would receive a promotion and pay raise. I was trained for the role and engaged in discussions about it for months. However, the decision seemed to shift suddenly, and I was told that my pregnancy might impact whether I wanted the role-despite my consistent interest. This has been confusing, and I'd appreciate a clearer understanding of what happened.</p>
+            <p>Honestly I decided to let it go, even though I felt deceived. But seeing my pay reduction is a little much...Truly, I feel I need an actual explanation.</p>
+            <p>Thank you for your time. I look forward to your response.</p>
+            <p>Best,<br>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 18, 2025 at 2:26 PM<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Arianne,</p>
+            <p>Here are the answers to your questions...wrote in all caps under each question to read easier (it isn't shoutingL:)!)</p>
+            <p><strong>Pay Questions:</strong></p>
+            <ol class="list-decimal list-inside space-y-2">
+                <li><strong>Can you clarify why my pay was reduced and why I wasn't given prior notice?</strong><br>OWNERSHIP HEARD ABOUT THE SERVICE CHARGE ISSUES WITH GUESTS AND SINCE WE ARE NOT SERVING A FULL FOOD MENU, THEY DECIDED TO MOVE BACK TO A NORMAL TIP MODEL. ROXY DISCUSSED WITH YOU AND THE TEAM (ROXY CAN EXPAND ON THAT) AS YOU CAN SEE IN #2, YOUR PAY INCREASED WHEN YOU MOVED OFF OF THE COMMISSION MODEL TO THE REGULAR TIP MODEL. NOT SEEING A PAY DECREASE.</li>
+                <li><strong>Who decided I deserved to have a pay reduction, and why?</strong><br>AGAIN, THE DATA DOES NOT SHOW A PAY DECREASE. OWNERSHIP DECEIDED TO MOVE OFF OF COMMISSION MODEL AND BACK TO THE REGULAR TIP MODEL. THIS STARTED WITH THE FEB 28TH PAYCHECK. YOUR AVG HOURLY RATE WAS $27.00 PER HOUR. THE PREVIOUS TWO CHECKS (UNDER COMMISSION MODEL) AVG HOURLY RATE FEB 14TH WAS $18.43 AND JANUARY 17TH WAS $20.70.</li>
+                <li><strong>Why was my previous sick pay lower than minimum wage?</strong><br>3/14 PAYROLL CHECK WAS INACCURATE... YOU WERE SHORTED BY $26.06 AFTER LYNN (NEW YH BOOKKEEPER) FOUND THE ERROR. THAT WILL BE ADDED TO YOUR NEXT CHECK! SEE ABOVE...IT WAS AN SYSTEM ERROR THAT HAS BEEN FIXED AND WILL BE PAID ON NEXT PAYCHECK</li>
+            </ol>
+            <p class="mt-2"><strong>Promotion/Pay Raise Questions (for Roxy):</strong></p>
+            <ol class="list-decimal list-inside space-y-2">
+                <li><strong>Did my pregnancy factor into the changes regarding my promotion?</strong><br>NOT AT ALL. WE ARE DOING LIMITED REVENUE THIS TIME OF THE YEAR AND HAVE NO NEED FOR A LEAD SERVER AT THIS TIME.</li>
+                <li><strong>Why was I told that you were discussing my promotion & pay raise with Cooper for months?</strong><br>ROXY MENTIONED TO ME THAT THERE WAS INTEREST FROM A TEAMMEMBER...AND WE SAID WE ARE NOT DOING ANYTHING UNTIL SALES INCREASE AND WE MOVE INTO THE BUSIER SEASON AT YH. ROXY DISCUSSED WITH YOU IN FEBRUARY ABOUT THE LEAD POSITION BUT TOLD YOU UNTIL BUSINESS PICKS UP, IT WOULDN'T HAPPEN...AND MAY SEEMS TO MAKE THE MOST SENSE AS THAT IS WHEN WE WILL BEGIN TO HIRE AND ONBOARD THE NEW TEAM MEMBERS</li>
+                <li><strong>Why was I informed that there was uncertainty between you and Cooper about whether I wanted the promotion due to my pregnancy?</strong><br>YOUR PREGANCY WAS NEVER A CONSIDERATION AND ROXY AND I NEVER DISCUSSED THAT. I ONLY FOUND OUT YOU WERE PREGNANT WHEN YOU TEXTED ME ON FEB 14TH ABOUT THE LEAD SERVER QUESTIONS.</li>
+                <li><strong>Why was Cooper unaware of these discussions when I reached out?</strong><br>I WASN'T CLEAR. WE HAD DISCUSSED A LEAD SERVER BUT DON'T DIDN'T REMEMBER IT SPECIFIC TO YOU...MORE CONFUSION ON MY END AS I DIDN'T REMEMBER US DISCUSSING SOMEONE SPECIFICALLY, JUST A "LEAD SERVER". WHICH AGAIN, WE DONT NEED AS THERE IS VERY LITTLE REVENUE (OR TRAINING) THAT NEEDS TO TAKE PLACE.</li>
+                <li><strong>When I asked you about the delay in the decision after being denied, I was told that "these things take time" - but after reaching out to Cooper, I received a definitive answer within two weeks. Could you clarify this discrepancy? What took months to figure out? And with whom were you discussing this with, if not with Cooper?</strong><br>ROXY CONTIUNED TO TELL YOU WE DO NOT HAVE THE BUSINESS LEVELS TO SUPPORT ADDING A LEAD SERVER AND THE GOAL FOR HIRING FOR THAT POSITION WAS GOING TO BE WHEN BUSINESS LEVEL INCREASE AND HIRING AND ONBOARDING START IN MAY.</li>
+            </ol>
+            <p class="mt-2">Happy to discuss more if you have any additional questions and feel free to reach out anytime to myself, Roxy or HR (Darcey)!</p>
+            <p>Again, congrats on the soon to be new addition to the family!</p>
+            <p>Take care,<br>Cooper Mills</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 3:24:27 PM<br>
+        <strong>To:</strong> Cooper Mills &lt;Cooper@fire-vine.com&gt;<br>
+        <strong>Subject:</strong> Fwd: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>I'm forwarding the message I sent that day</p>
+            <p>I suppose I'm confused at my base pay rate going from 17.00 an hour down to the absolute minimum 16.66. As shown in attached images. Am I understanding this wrong? I'm not referring to my average pay which is determined by my tips/etc - I'm talking about my actual pay rate. Someone made the choice to reduce it. I'm so glad to hear the new bookkeeper caught the sick leave! One other thing I wanted to confirm with you is the 'tip make-up' line item on paychecks. I was told by the wonderful new bookkeeper that this represents tips that were missed and later accounted for. Just wanted to double-check for clarity-thank you!</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 at 3:37 PM<br>
+        <strong>Subject:</strong> Re: Fw: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Arianna,</p>
+            <p>Added Roxy and Darcey to thread. Please make sure our correspondence have them included.</p>
+            <p>This was included about pay but apologies I wasn't clear. Here is Lynn's response to that wage change...she didn't catch how or why it changed but it's fixed and you are being paid what's owed:</p>
+            <p><em>One thing to note is that on PP05 they dropped her from $17.00 to $16.66 and I did not catch that. For her total pay we would owe her an additional $9.46. I reached out to AMP for this to be corrected</em></p>
+            <p>Cooper Mills<br>President<br>Fire & Vine Hospitality</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 3:50:49 PM<br>
+        <strong>To:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Cc:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Darcey McAllister &lt;darcey@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Fw: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Oops! I now know how to reply to all. I thought it was happening the whole time.</p>
+            <p>Thanks for your help! Just to confirm, it sounds like it was an error that my pay rate dropped to 16.66, and it will be corrected back to 17.00-do I have that right? I may have also missed your response to this part: just to confirm-'tip make up' is the amount management/bookkeeping adds to my paycheck to account for missed tips, correct? Apologies for all the questions-I just want to ensure I have a crystal-clear understanding, especially since there seem to be some discrepancies that need addressing. I really appreciate your time and clarification!</p>
+            <p>Thanks again,<br>Arianne</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, Mar 25, 2025 at 3:58 PM<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>All good...Ask away!</p>
+            <p>Yes...what was missed is being caught up on this payroll. Switch over from the old bookkeeper to Lynn wasn't the smoothiest but Lynn has got us all dialed in now and has our systems in place.</p>
+            <p>Cooper Mills<br>President<br>Fire & Vine Hospitality</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 4:02:44 PM<br>
+        <strong>To:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Okay glad to know about the pay rate. :)</p>
+            <p>How about the 'tip make up' line item? I just simply want to confirm that it's merely my tips that were missed and caught later and added to my pay check.</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, Mar 25, 2025 at 4:06 PM<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Don't forget reply all;)</p>
+            <p>I don't believe that is. I have added Lynn to the thread to explain what "tip make up" means on your paystub and how the back pay is recorded on this Friday's check (Lynn, would it be listed as "retro"? She should be able to get back to you tomorrow as I'm sure she is out by now.</p>
+            <p>Cooper Mills<br>President<br>Fire & Vine Hospitality</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, March 25, 2025 4:51:32 PM<br>
+        <strong>To:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;; Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Cc:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Darcey McAllister &lt;darcey@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Awesome thanks! Lynn replied/confirmed twice about this - I just wanted to be 100% sure that 'tip make up' were my tips that were 'missed' and then later added to my paycheck--referring to my previous paychecks prior to the changes-- again just for complete clarity. I'm not being obtuse on purpose I promise!! But Since you're deferring to Lynn I believe that answers everything for now. I'll take her previous answers as correct and I now fully understand. If she wants to clarify further, that's totally fine, but I think I've got it :)</p>
+            <p>Have a wonderful night</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Wednesday, Mar 26, 2025 at 10:40 AM<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Yes as stated before tip make up are tips that were missed previously/tips that were added through the workbook. This payroll you will have additional money added to your check and this is from the sick pay that was not paid out at minimum wage. Feel free to always ask questions. It's your money!</p>
+            <p>Have a great day,<br>Lynn Moller</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Friday, May 2, 2025 6:50:45 PM<br>
+        <strong>To:</strong> YHR Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Cc:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;; Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Darcey McAllister &lt;darcey@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Hi all,</p>
+            <p>I was reviewing my most recent pay stub and noticed that Wine Bottle Sales are listed at $0. This is clearly an error, and it's not the first one I've encountered as has been clearly demonstrated. I would like to be paid the full amount that I earned. Paystub before this one seemingly has me shorted $5 in tips, according to my records. Is there any way this can be confirmed and rectified? Lastly, Cooper - I reached out to Darcy twice separately via email, but I've received no reply. I checked to make sure I got the right email but maybe this chain will work.</p>
+            <p>Thank you,<br>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 5, 2025 1:15 PM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;; YHR Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Cc:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Wendi Modarelli &lt;Wendi@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Arianna,</p>
+            <p>Darcey is no longer with HRT. I believe you talked with Wendi. She is added to the thread and can answer to your response. I believe Roxy discussed the pay I for with you.</p>
+            <p>Cooper Mills<br>President<br>Fire & Vine Hospitality</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Wendi Modarelli &lt;wendi@hrtnorthwest.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 5, 2025<br>
+        <strong>Subject:</strong> Re: Clarification Regarding Pay<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>Yes, I sent you a reply on behalf of Darcey since she is no longer with us. I'll find that note and forward it to you; perhaps it went to a junk mailbox?</p>
+            <p>Warm regards,<br>Wendi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: FW: A. Brauer pay info (May 12 - 16, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 12, 2025 2:00 PM<br>
+        <strong>To:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> A. Brauer pay info<br>
+        <div class="mt-2">
+            <p>Hi Roxy,</p>
+            <p>Thank you for letting me know about the pay concern from Arianne. I did some calculations, and it looks like her check was shorted $32.10. I am working with AMP to get this sorted out and have asked for a payment amount (after taxes) to write a a check to make up the difference.</p>
+            <p>I have started a spreadsheet to better track charged tips, bottle sales, and wages to be sure we catch this prior to payroll processing.</p>
+            <p>Please let Arianne know that I apologize for the error and will work to correct it moving forward.</p>
+            <p>Thank you,<br>Susie</p>
+            <p>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 12, 2025 2:07 PM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <div class="mt-2">
+            <p>Hi Arriane,</p>
+            <p>I spoke with Susie about your paycheck please read below with the calculations that she is working out with AMP. I appreciate you reaching out to myself this weekend and we are working on getting this resolved soon.</p>
+            <p>Please don't hesitate to reach out to both Susie or me if you have any other questions. @Yellowhawk Bookkeeper thank you for staying on top of this.</p>
+            <p>Have a wonderful afternoon!</p>
+            <p>Thank you so much!</p>
+            <p>Roxy Spence<br>Operations Manager - Guest Experiences<br>YELLOWHAWK RESORT<br>2901 Old Milton Hwy, Walla Walla, 99362<br>509-522-0200 X102</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Monday, May 12, 2025 2:24 PM<br>
+        <strong>To:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;<br>
+        <strong>Cc:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: FW: A. Brauer pay info<br>
+        <div class="mt-2">
+            <p>Hey Suzie,</p>
+            <p>I'm not sure how you calculated $32.10 as my shortage for the last pay period (4/21 - 5/04). Based on my calculations, I'm owed $56 for my tips. This is factoring in Spring Release saturday when the tips were split 3 ways. There's no concerns on bottle sales for this mentioned pay period.</p>
+            <p>The pay period of 4/7 to 4/20, I was given no bottle sales, when I sold 67 bottles that pay period.</p>
+            <p>I hope you're able to find these issues.</p>
+            <p>Thank you for your time</p>
+            <p>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Tuesday, May 13, 2025 9:27 AM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> Re: FW: A. Brauer pay info<br>
+        <div class="mt-2">
+            <p>Here is what I calculated from your server reports.</p>
+            <div class="bg-gray-100 p-2 rounded my-2 font-mono text-xs overflow-x-auto">
+                <pre>Employee      Date        Chg Tips  Ret. Bott. Hrs    rate    Wages      Total due
+Arianne Brauer  4/26/2025   $  64.32   9          6.14   $ 17.00  $ 104.38   $  177.70
+                4/27/2025   $  72.00   19         5.69   $ 17.00  $  96.73   $  187.73
+                5/3/2025    $ 116.92   26         7.71   $ 17.00  $ 131.07   $  273.99
+                5/4/2025    $ 188.42   33         8.44   $ 17.00  $ 143.48   $  364.90
+Total           $ 441.66     87         27.98           $ 475.66   $ 1,004.32</pre>
+            </div>
+            <p>The charged tips on your paystub show a difference of $32.10. (441.66-409.56)</p>
+            <p>These are the records that I have to go on for payroll. I will also review the previous pay period for the missing bottles your referred to.</p>
+            <p>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+          <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+          <strong>Sent:</strong> Tuesday, May 13, 2025 6:53 PM<br>
+          <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+          <strong>Subject:</strong> Re: FW: A. Brauer pay info<br>
+          <div class="mt-2">
+              <p>According to the end of the day reports I observed:<br>May 4th tips; I actually made $226.73, not $188.42. May I ask if you've retained the physical copies of the end of day reports/receipts?</p>
+          </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+          <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+          <strong>Sent:</strong> Wednesday, May 14, 2025 10:08 AM<br>
+          <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+          <div class="mt-2">
+              <p>Yes, I do have the daily reports. I see that the Order Port tips did not get recorded correctly either. Thank you for your patience as we sorted this out. I will let AMP know about the Difference of $70.06 and have them calculate what you are owed. I will write a check as soon as I know the total. Hopefully I can have a check for you this weekend.</p>
+              <p>I am still looking into the previous pay period for the bottles of wine that you sold.</p>
+              <p>Susie<br>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+          </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+          <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+          <strong>Sent:</strong> Friday, May 16, 2025 4:21 PM<br>
+          <strong>To:</strong> Yellowhawk Bookkeeper<br>
+          <div class="mt-2">
+              <p>Thank you for the update. I want to express my growing concern, as since I began closely reviewing my paystubs, I've uncovered several errors that required reimbursement. This naturally raises the question of how long these discrepancies may have been occurring without notice.</p>
+              <p>Specifically, I'd like clarification on how the tips are not being recorded correctly, and how the paystub software failed to align with the spreadsheet/report. It's pretty scary to find multiple points of error on a single paycheck especially given that I've already identified wage withholding issues totaling hundreds of dollars over just the past ~four months. It's likely this has been happening even prior to my detailed tracking.</p>
+              <p>To better understand and resolve this, would it be possible for you to provide the end-of-day reports/receipts I personally review and use to record my bottle sales? I'd like to cross-reference these with my paychecks to ensure accuracy. If there are additional instances of incorrect or missing compensation, I believe I have the right to fully investigate and address the matter.</p>
+              <p>Thank you again for your time and attention to this issue.</p>
+          </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper<br>
+        <div class="mt-2">
+            <p>Hi again, I received an email from you with the subject' Automatic reply: FW: A. Brauer pay info'. The body of the email was totally empty. There must have been an error.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Reports and Pay Periods (May 29 - May 30, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Thursday, May 29, 2025 5:42 PM<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Reports and pay periods<br>
+        <div class="mt-2">
+            <p>Hello again. There are more issues. :(</p>
+            <ol class="list-decimal list-inside space-y-1">
+                <li>There was another mistake on my most recent paycheck (pay period 5/05-5/18) of my bottle sales. My bottle sales on my paycheck state that I made $45 in commission. I tracked my sales and I made $53 in commission.</li>
+                <li>I am still waiting on my bottle sales for the pay period of 4/07 - 4/20. I'd like an accounting of what has been done to investigate this so far as there has been an inordinate amount of time since reporting this error - and what measures will be taken to not have this happen again.</li>
+                <li>Please forward end-of-day reports to me so I may cross reference them myself.</li>
+            </ol>
+            <p>Thanks</p>
+            <p>Arianne Brauer</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Friday, May 30, 2025 8:56 AM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> Re: Reports and pay periods<br>
+        <div class="mt-2">
+            <p>Good morning Arianne,</p>
+            <p>I am sorry this is taking so long. I am auditing your pay starting 12/30/24 when the new fiscal year started. It is taking some time, but I am finding a few minor discrepancies.</p>
+            <p>I am hoping to finish cross checking all reports in the next week. I would like to process through all pay periods so that we can make one adjustment. I will scan copies of your reports as I go and then send them at one time. I was out of town when the last payroll was processed, but I did notice a discrepancy. I apologize for that.</p>
+            <p>I have created a spreadsheet to track all tips, bottle sales and hours worked so that I can cross check what is being reported in Toast and what is being submitted by you. I am hoping this will resolve any future issues. Again this is an extra step but hopefully will resolve the issue.</p>
+            <p>We appreciate your patience as we try to rectify the issue.</p>
+            <p>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: Reports and pay periods<br>
+        <div class="mt-2">
+            <p>Thank you so much! I eagerly await the reports you send so I may cross reference as well.</p>
+            <p>I ask for urgency and priority on sending me those reports - I'll have the numbers quickly myself; I no longer wish to wait for delays. Additionally, I must insist on obtaining reports from as far back as possible. Presumably records are kept for a certain minimum. I hope you understand because if I've found this many errors, and you yourself are finding even more, then it stands to reason this has been an ongoing issue for as long as I've been working there and I want to be sure. Going back merely to the beginning of the fiscal year simply isn't enough of an audit.</p>
+            <p>May I ask is there any other employee having issues like this or is it just me? I'm guessing others aren't keeping track like me - which means likely they're having wages withheld as well.</p>
+            <p>Also, how is this happening? Is someone not inputting numbers correctly on multiple fronts? Is there a severe software issue? In which case this is a serious matter (it already is) affecting everyone warranting further and immediate investigation and resolution. Have you determined the cause of these accounting errors? For example, if you noticed a discrepancy just recently, did you discover the cause? Surely it can't be 'we're transitioning' which is the only reply I've received for months now as to why this is happening.</p>
+            <p>Finally, random question: is there any budget for a family meal here at Yellow Hawk?</p>
+            <p>To recap:</p>
+            <ol class="list-decimal list-inside space-y-1">
+                <li>Please prioritize sending me reports from as far back as you're able - presumably records are kept for a minimum of multiple years.</li>
+                <li>Is anyone else having issues like me?</li>
+                <li>How is this happening, what is the cause?</li>
+                <li>Does Yellow Hawk offer servers a family meal?</li>
+            </ol>
+            <p>Thank you again, and apologies for being a pain! It's definitely concerning to realize that I would have never known and would be out hundreds - potentially thousands of dollars if I had never bothered to keep track after noticing multiple issues.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Sick Pay (June 7, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Saturday, June 7, 2025 7:06 AM<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Sick pay<br>
+        <div class="mt-2">
+            <p>Hey,</p>
+            <p>This is Arianne Brauer. I had to call into work today, June 7th 2025, due to health issues. I would like to use all my remaining sick pay.</p>
+            <p>Thank you.</p>
+            <p>P.s. I would like an update on my wage situation.</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Susie Pearson, Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> Re: Sick pay<br>
+        <div class="mt-2">
+            <p>Thank you. I will add this on the upcoming payroll.</p>
+            <p>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Server Reports and Address Correction (June 18 - 23, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Wednesday, June 18, 2025 12:31 PM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Cc:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;; Roxy Spence &lt;roxy@yellowhawkresort.com&gt;; Wendi Modarelli &lt;Wendi@hrtnorthwest.com&gt;; Terianne Broyles &lt;terianne@fire-vine.com&gt;; karen@hrtnorthwest.com &lt;karen@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Server Reports for 2025<br>
+        <div class="mt-2">
+            <p>Good morning Arianne,</p>
+            <p>Here are copies of the server reports you requested. I have also included a copy of your Time Entry Report from Toast.</p>
+            <p>We have cross-referenced with our payroll department to ensure accuracy. Since the start of 2025, there have been some pay adjustments to correct the situation. However, after further review, we have found additional errors on your checks. We owe you missed pay of $289.67. We are adding an additional $100 to that amount as compensation for our error.</p>
+            <p>We have taken steps to ensure accuracy for our servers moving forward. We appreciate your patience as we verified all of our data to ensure that you are appropriately compensated for your work. We will have our payroll department prepare an updated earning report and issue a check to be mailed to you as soon as possible. I will email you when I put the check in the mail.</p>
+            <p>Again, we apologize for our error and appreciate your patience as we work to correct it.</p>
+            <p>If you have additional questions, please reach out to us.</p>
+            <p>Thank you,<br>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Wednesday, June 18, 2025 1:09 PM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: Server Reports for 2025<br>
+        <div class="mt-2">
+            <p>Arianne,</p>
+            <p>A check has been issued. I will put it in the mail today. Thank you for your patience.</p>
+            <p>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Wednesday, June 18, 2025 1:31 PM<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: Server Reports for 2025<br>
+        <div class="mt-2">
+            <p>Could you tell me the address on file to confirm it's correct?</p>
+            <p>I've previously requested an audit and reports from prior to 2025.</p>
+            <p>Regards,<br>Arianne</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+       <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Monday, June 23, 2025 9:31 AM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: Server Reports for 2025<br>
+        <div class="mt-2">
+            <p>I apologize for the delay. I was out of the office Thursday & Friday.</p>
+            <p>The address we have on file is 150 S. Wilbur.</p>
+            <p>I am still working on gathering previous years documents, as I was not here during that time. I will continue to gather the information as quickly as possible to find the information.</p>
+            <p>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Arianne Brauer &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Monday, June 23, 2025 9:40 AM<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: Server Reports for 2025<br>
+        <div class="mt-2">
+            <p>Unfortunately that is the wrong address. I did tell Roxi, back in late January 2025, about my new address because I had concerns about my w-2 form. I guess it never got updated.</p>
+            <p>My new address is 309 W Cherry Street, Walla Walla WA 99362.</p>
+        </div>
+      </div>
+       <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Monday, June 23, 2025 11:27 AM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: Server Reports for 2025<br>
+        <div class="mt-2">
+           <p>I will get this updated.</p>
+           <p>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Arianne Brauer &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Monday, June 23, 2025 12:20 PM<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: Server Reports for 2025<br>
+        <div class="mt-2">
+            <p>Would you need to cancel the other check and send another check to the correct address?</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Monday, June 23, 2025 1:27 PM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: Server Reports for 2025<br>
+        <div class="mt-2">
+            <p>I have requested a stop payment. I will reissue the check today and drop it in the mail.</p>
+            <p>Please update your address in the MyPay app to ensure we have correct information.</p>
+            <p>Susie Pearson<br>Bookkeeper<br>YELLOWHAWK RESORT<br>509-522-0200 x104</p>
+        </div>
+      </div>
+       <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Arianne Brauer &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>To:</strong> Yellowhawk Bookkeeper &lt;yhbookkeeper@yellowhawkresort.com&gt;<br>
+        <div class="mt-2">
+            <p>When I tried to update my information before, it wouldn't let me so that's why I gave Roxi my new address in January.</p>
+            <p>After reading your email, I tried again to update my address and it still wouldn't let me again. I attached a screenshot of what shows up when I try to update my address.</p>
+            <p>Hopefully there's a way to update my address on the managerial side.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </details>
+
+                <details class="document-category group">
+                    <summary class="flex items-center cursor-pointer p-4">
+                        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                        Copy of the menu
+                    </summary>
+                    <div class="pl-5 pt-2 border-l-2 ml-5 space-y-2">
+                        <!-- ADD DOCUMENT HERE -->
+
+
+
+<details class="document-category group" closed>
+    <summary class="flex items-center cursor-pointer p-4">
+        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+        Images of menu
+    </summary>
+    <div class="pl-5 pt-2 border-l-2 ml-5">
+        <div class="p-4">
+            <h4 class="font-semibold text-lg mb-2">Full menu</h4>
+            <div class="p-4 bg-gray-50 border border-gray-200 rounded-lg">
+                <img 
+                    src="https://i.imgur.com/O0q9KPZ.jpeg" 
+                    alt="Full menu" 
+                    class="max-w-full h-auto rounded-lg shadow-md"
+                >
+            </div>
+            <h4 class="font-semibold text-lg mb-2">Close up of non-compliant service charge disclosure</h4>
+            <div class="p-4 bg-gray-50 border border-gray-200 rounded-lg">
+                <img 
+                    src="https://i.imgur.com/2gEF5Da.jpeg" 
+                    alt="Full menu" 
+                    class="max-w-full h-auto rounded-lg shadow-md"
+                >
+            </div>
+        </div>
+    </div>
+</details>
+
+
+
+
+                    </div>
+                </details>
+
+                <details class="document-category group">
+                    <summary class="flex items-center cursor-pointer p-4">
+                        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                        Email terminating your employment and termination letter (+ leadup to termination)
+                    </summary>
+                    <div class="pl-5 pt-2 border-l-2 ml-5 space-y-2">
+                         <!-- ADD DOCUMENT HERE -->
+
+
+
+
+
+
+
+
+                         <details class="document-category group" closed>
+    <summary class="flex items-center cursor-pointer p-4">
+        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+        Text Messages Regarding Meeting (June 5-7, 2025)
+    </summary>
+    <div class="pl-5 pt-2 border-l-2 ml-5">
+        <div class="p-4">
+            <h4 class="font-semibold text-lg mb-2">Text Messages with Roxana Acock</h4>
+            <div class="chat-container flex flex-col bg-gray-50 border border-gray-200 rounded-lg p-4 sm:p-6 space-y-2">
+                <div class="date-separator">Thursday, June 5, 2025</div>
+                <div class="chat-bubble chat-bubble-received"><p>Ok, thanks for letting me know. Can you be at Yellowhawk on saturday at 8:30?</p><p class="text-right text-xs mt-1 chat-meta">7:01 PM</p></div>
+                <div class="chat-bubble chat-bubble-sent"><p>Sounds good, what's the occasion?</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">7:20 PM</p></div>
+                <div class="chat-bubble chat-bubble-received"><p>I would like to talk to about last saturday.</p><p class="text-right text-xs mt-1 chat-meta">7:39 PM</p></div>
+                <div class="chat-bubble chat-bubble-sent"><p>Could you jog my memory what happened last Saturday?</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">7:41 PM</p></div>
+                <div class="chat-bubble chat-bubble-received"><p>We will talk on Saturday.</p><p class="text-right text-xs mt-1 chat-meta">7:49 PM</p></div>
+                <div class="chat-bubble chat-bubble-sent"><p>Yes we will, I'll be working that day.</p><p class="mt-2">In the meantime, please inform me what this pertains to. I'm unaware of any event requiring discussion.</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">7:52 PM</p></div>
+                <div class="date-separator">Friday, June 6, 2025</div>
+                <div class="chat-bubble chat-bubble-sent"><p>Hey good morning, and since you didn't respond, and since this seems to be some sort of important discussion, go ahead and correspond through email instead.</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">9:33 AM</p></div>
+                <div class="chat-bubble chat-bubble-received"><p>Good morning, we had some feedback from some guests I'd like to go over.</p><p class="text-right text-xs mt-1 chat-meta">9:43 AM</p></div>
+                <div class="chat-bubble chat-bubble-sent"><p>Alrighty. Go ahead and email me the details today please :) After what I experienced, if there is any issues, I prefer correspondence on the record, I'm sure you understand.</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">10:46 AM</p></div>
+                <div class="chat-bubble chat-bubble-received"><p>As I said it is customer feedback and issues that we will be discussing tomorrow.</p><p class="text-right text-xs mt-1 chat-meta">12:53 PM</p></div>
+                <div class="chat-bubble chat-bubble-sent"><p>Would I be able to record our conversation tomorrow?</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">2:22 PM</p></div>
+                <div class="chat-bubble chat-bubble-received"><p>HRT will be in the meeting with us as a witness, recordings of meetings aren't authorized.</p><p class="text-right text-xs mt-1 chat-meta">2:33 PM</p></div>
+                <div class="chat-bubble chat-bubble-sent"><p>This feels like you're trying to blindside me. I made it so clear that I want this on the record, but you purposely didn't tell me HRT would be there, and you're clearly withholding as many details as you can.</p><p class="mt-2">Regardless, HRT is not a valid witness, at least not for me. They refused me the most basic information about our last meeting - and when I asked for more, they told me they wouldn't be responding to me anymore.</p><p class="mt-2">I would prefer to do this through the computer, like last time. I will also have a witness in the meeting that I can rely on, as well as representation.</p><p class="text-right text-xs mt-1 chat-meta chat-meta-sent">2:56 PM</p></div>
+                <div class="chat-bubble chat-bubble-received"><p>See my email.</p><p class="text-right text-xs mt-1 chat-meta">5:31 PM</p></div>            </div>
+        </div>
+    </div>
+</details>
+
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Saturday 6/7/2025 8:30 a.m. meeting at Yellowhawk (June 6 - 7, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Friday, June 6, 2025 5:31 PM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Saturday 6/7/2025 8:30 a.m. meeting at Yellowhawk<br>
+        <div class="mt-2">
+            <p>Before you start your shift tomorrow, we need to meet in person for me to discuss important performance feedback. There will be no authorized witness other than HRT.</p>
+            <p>I expect to see you tomorrow at 8:30 a.m.</p>
+            <p>Roxy Spence<br>Operations Manager - Guest Experiences<br>YELLOWHAWK RESORT<br>2901 Old Milton Hwy, Walla Walla, 99362<br>509-522-0200 X102</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> June 7, 2025 5:16 AM UTC<br>
+        <strong>To:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: Saturday 6/7/2025 8:30 a.m. meeting at Yellowhawk<br>
+        <div class="mt-2">
+            <p>I'm going to reiterate my willingness to meet and discuss the 'issues' you have mentioned. However, the current arrangement for this meeting is causing me medically significant distress. This stress stems directly from being compelled to attend a meeting where I am not given any specific advanced information on the topics giving me no meaningful ability to prepare, denied the presence of a support person and witness reporting to me, and forbidden from making a recording to ensure accuracy.</p>
+            <p>I am in the late stages of a pregnancy, my doctor has of course advised that avoiding intensely stressful situations is critical for my health and the health of my baby. The stress induced by the prospect of attending a closed door meeting with no witness accountable to me, or advanced information is not medically advisable for me at this time. Given these circumstances, attending an inperson meeting under the terms you have dictated is not a viable option.</p>
+            <p>Therefore, as a necessary accommodation for my current medical condition, I request one of the following:</p>
+            <ol class="list-decimal list-inside space-y-1">
+                <li>We can conduct this discussion in writing via email. This format ensures complete clarity and accuracy for all parties and eliminates the one sided nature of the current arrangement being imposed on me.</li>
+                <li>We can conduct this discussion via video conference, where I will be accompanied by my own witness.</li>
+            </ol>
+            <p>I'm ready and willing to cooperate fully once a safe and medically responsible format has been agreed upon. Please let me know which of these accommodations you can provide.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Meeting before you return to work (June 7 - 24, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Roxy Spence<br>
+        <strong>Sent:</strong> Saturday, June 7, 2025 12:05 PM<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Cc:</strong> Cooper Mills &lt;cooper@fire-vine.com&gt;; Wendi Modarelli &lt;wendi@hrtnorthwest.com&gt;; Karen Rylander &lt;karen@hrtnorthwest.com&gt;; Aleigh Smith &lt;aleigh@hrtnorthwest.com&gt;<br>
+        <strong>Subject:</strong> Meeting before you return to work<br>
+        <div class="mt-2">
+            <p>Arianne, before you resume work, we need to address important performance concerns, including negative customer feedback, attendance/tardiness, dress code, and cell phone use while working. It is essential that we align on expectations before you return.</p>
+            <p>Therefore, we will remove you from the schedule until we meet to discuss these issues. Additionally, we are not required to allow another witness at this meeting.</p>
+            <p>Please let us know if you need to request a reasonable accommodation in order to perform the essential functions of your job. If that is the case, we can provide the necessary documentation for your doctor to certify the need. We would then engage in an interactive process with you to determine whether an accommodation is available.</p>
+            <p>Sincerely,<br>Roxy</p>
+            <p>Roxy Spence<br>Operations Manager - Guest Experiences<br>YELLOWHAWK RESORT<br>2901 Old Milton Hwy, Walla Walla, 99362<br>509-522-0200 X102</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> Friday, June 20, 2025 4:55 PM<br>
+        <strong>To:</strong> Arianne Brauer<br>
+        <strong>Subject:</strong> Re: Meeting before you return to work<br>
+        <div class="mt-2">
+            <p>Arianne, I hope you are well. Since I haven't heard back from you in over a week, I am wondering: are you planning on returning to work at Yellowhawk?</p>
+            <p>If so, please reply to this message by 6/25/25. I will then inform you of my availability for the performance discussion.</p>
+            <p>If I do not hear from you by 6/25/25, we will consider you to have resigned from your employment with Yellowhawk effective your last day worked.</p>
+            <p>Best regards,<br>Roxy</p>
+            <p>Roxy Spence<br>Operations Manager - Guest Experiences<br>YELLOWHAWK RESORT<br>2901 Old Milton Hwy, Walla Walla, 99362<br>509-522-0200 X102</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Arianne Brauer &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> June 24, 2025 8:38 PM UTC<br>
+        <strong>To:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Re: Meeting before you return to work<br>
+        <div class="mt-2">
+            <p>Roxi,</p>
+            <p>I want to be clear: I have not resigned, nor do I intend to. My current absence is due solely to the indefinite, unpaid suspension you imposed after I requested reasonable accommodations to have this meeting on the record.</p>
+            <p>I remain willing to discuss any legitimate performance concerns. However, given HR's handling of my previous complaints, their unwillingness to answer questions or allow anything to be on the record -- and the manner in which this meeting was concealed from me -- I cannot participate in another closed-door, off-the-record meeting. Your refusal to allow a simple recording or a witness has forced me to carefully consider my position and explore all available options.</p>
+            <p>Your ultimatum and deadline are noted.</p>
+            <p>Sincerely,<br>Arianne Brauer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email: Arianne Brauer Separation Letter (June 25, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Roxy Spence &lt;roxy@yellowhawkresort.com&gt;<br>
+        <strong>Sent:</strong> June 25, 2025 7:55 PM UTC<br>
+        <strong>To:</strong> Lady-Octopus &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> Arianne Brauer Separation Letter<br>
+        <div class="mt-2">
+            <p>Hi Arianne,</p>
+            <p>Please see attached letter as you see ending your employment with Yellowhawk; for refusal to meet with myself as your supervisor and return to work.</p>
+            <p>Best Regards,<br>Roxy</p>
+            <p>Roxy Spence<br>Operations Manager - Guest Experiences<br>YELLOWHAWK RESORT<br>2901 Old Milton Hwy, Walla Walla, 99362<br>509-522-0200 X102</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Separation Letter (June 25, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-2">
+      <div class="flex justify-center my-4">
+          <img src="https://storage.googleapis.com/context-captures/project_355452/569a7b5e-0a56-42f0-bb7e-4043b4d455d3.png" alt="Fire & Vine Hospitality Logo" style="width: 250px;">
+      </div>
+      
+      <p>June 25, 2025</p>
+      
+      <p>Arianne Brauer<br>
+      309 W Cherry Street<br>
+      Walla Walla, WA 99362</p>
+      
+      <p>Dear Arianne:</p>
+      
+      <p>As we have discussed, you refused to meet with me, your supervisor, regarding performance concerns before returning to work. Therefore, the decision has been made to end your employment with Yellowhawk. The effective date of your termination is today, June 25, 2025.</p>
+      
+      <p>Sincerely,</p>
+      
+      <p>Roxy Spence<br>
+      Operations Manager for Guest Experience</p>
+    </div>
+  </div>
+</details>
+
+
+
+                    </div>
+                </details>
+
+                <details class="document-category group">
+                    <summary class="flex items-center cursor-pointer p-4">
+                        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                        Anything else you think would be helpful for me to review
+                    </summary>
+                    <div class="pl-5 pt-2 border-l-2 ml-5 space-y-2">
+                        <!-- ADD EMAIL BLOCKS HERE -->
+
+
+
+
+
+
+
+
+<details class="document-category group" closed>
+    <summary class="flex items-center cursor-pointer p-4">
+        <svg class="details-arrow h-6 w-6 mr-2 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+        Images of paystubs
+    </summary>
+    <div class="pl-5 pt-2 border-l-2 ml-5">
+        <div class="p-4">
+            <h4 class="font-semibold text-lg mb-2">Paystub 1</h4>
+            <div class="p-4 bg-gray-50 border border-gray-200 rounded-lg">
+                <img 
+                    src="https://i.imgur.com/JacCf6v.jpeg" 
+                    alt="1" 
+                    class="max-w-full h-auto rounded-lg shadow-md"
+                >
+            </div>
+            <h4 class="font-semibold text-lg mb-2">Paystub 2</h4>
+            <div class="p-4 bg-gray-50 border border-gray-200 rounded-lg">
+                <img 
+                    src="https://i.imgur.com/ZZvXudD.jpeg" 
+                    alt="2" 
+                    class="max-w-full h-auto rounded-lg shadow-md"
+                >
+            </div>
+        </div>
+    </div>
+</details>
+
+
+
+
+
+
+
+<details class="document-item group">
+  <summary class="flex items-center cursor-pointer p-1 hover:bg-gray-100">
+    <svg class="details-arrow h-3 w-3 mr-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <span class="text-xs font-medium">Email Chain: Surveillance Questions (June 14, 2025)</span>
+  </summary>
+  <div class="p-2 text-xs">
+    <div class="message-content space-y-4">
+      <div>
+        <strong>From:</strong> Arianne Brauer &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Sent:</strong> Saturday, June 14, 2025 11:53 AM<br>
+        <strong>To:</strong> Tony McGuire &lt;tony@yellowhawkresort.com&gt;<br>
+        <strong>Subject:</strong> Surveillance Questions<br>
+        <div class="mt-2">
+            <p>Hey Tony,</p>
+            <p>This is Arianne Brauer. I know I sent you a private message on Facebook a while ago about surveillance. How far back does the surveillance go? Also, does our cameras have audio to them? I was told you're in charge of that.</p>
+            <p>Thank you also, if you're a father, have a good father's day weekend!</p>
+        </div>
+      </div>
+      <hr class="my-2 border-gray-300">
+      <div>
+        <strong>From:</strong> Tony McGuire &lt;tony@yellowhawkresort.com&gt;<br>
+        <strong>To:</strong> Arianne Brauer &lt;kaleidoscope.eye89@gmail.com&gt;<br>
+        <strong>Subject:</strong> Re: Surveillance Questions<br>
+        <div class="mt-2">
+            <p>Good morning,</p>
+            <p>The cameras do not pick up audio and only save the last 30 days concurrently. The last day available would-be May 18, tomorrow would be May 19th, etc</p>
+            <p>If the power glitches or goes out it resets and starts recording from that day until it catches up to 30 days, then starts over.</p>
+            <p>Let me know if you have any more questions.</p>
+            <p>Cheers,<br>
+            Tony McGuire<br>
+            Director of Facilities<br>
+            tony@yellowhawkresort.com<br>
+            P: 509-522-0200 Ext. 106<br>
+            C: 509-520-6658</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+
+
+
+
+                    </div>
+                </details>
+
+            </div>
+        </main>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        let tabcontent = document.getElementsByClassName("tab-content");
+        for (let i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].classList.add("hidden");
+        }
+        let tablinks = document.getElementsByClassName("tab-link");
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active");
+        }
+        document.getElementById(tabName).classList.remove("hidden");
+        evt.currentTarget.classList.add("active");
+    }
+
+    function switchTimeline(timelineType) {
+        const pregnancyTimeline = document.getElementById('timeline-pregnancy');
+        const wagesTimeline = document.getElementById('timeline-wages');
+        if (timelineType === 'pregnancy') {
+            pregnancyTimeline.classList.remove('hidden');
+            wagesTimeline.classList.add('hidden');
+        } else if (timelineType === 'wages') {
+            pregnancyTimeline.classList.add('hidden');
+            wagesTimeline.classList.remove('hidden');
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const defaultTabButton = document.querySelector('button[onclick*="tab-documents"]');
+        if (defaultTabButton) {
+            openTab({ currentTarget: defaultTabButton }, 'tab-documents');
+        }
+        const timelineSelector = document.getElementById('timeline-selector');
+        if(timelineSelector){
+            timelineSelector.value = 'pregnancy';
+            switchTimeline('pregnancy'); 
+        }
+    });
+</script>
+
+</body>
+</html>
