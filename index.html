@@ -2140,10 +2140,12 @@ Total           $ 441.66     87         27.98           $ 475.66   $ 1,004.32</p
     }
 
     document.addEventListener('DOMContentLoaded', (event) => {
-        const defaultTabButton = document.querySelector('button[onclick*="tab-documents"]');
-        if (defaultTabButton) {
-            openTab({ currentTarget: defaultTabButton }, 'tab-documents');
-        }
+    // Find the 'Timeline' button instead of the 'Documents' button
+    const defaultTabButton = document.querySelector('button[onclick*="tab-timeline"]');
+    if (defaultTabButton) {
+        // Call openTab with the timeline's ID
+        openTab({ currentTarget: defaultTabButton }, 'tab-timeline');
+    }
         const timelineSelector = document.getElementById('timeline-selector');
         if(timelineSelector){
             timelineSelector.value = 'pregnancy';
